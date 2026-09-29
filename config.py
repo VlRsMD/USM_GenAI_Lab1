@@ -1,0 +1,25 @@
+SEQUENCE_LENGTH = 30
+
+VOCAB_SIZE = 20000
+
+EMBEDDING_DIM = 192
+
+LSTM_UNITS_1 = 256
+LSTM_UNITS_2 = 256
+
+DENSE_UNITS = 256
+
+DROPOUT_RATE = 0.25
+
+BATCH_SIZE = 64
+
+EPOCHS = 20
+
+LEARNING_RATE = 0.0005
+
+VALIDATION_SPLIT = 0.1
+
+MODEL_PATH = "models/text_generator.keras"
+TOKENIZER_PATH = "models/tokenizer.json"
+
+CORPUS_PATH = "data/corpus.txt"
